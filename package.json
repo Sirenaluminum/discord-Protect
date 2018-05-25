@@ -1,0 +1,34 @@
+{
+  "name": "neko-protect",
+  "version": "0.1.0",
+  "description": "A simple discord bot protect",
+  "main": "bot.js",
+  "scripts": {
+ "start": "node bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "neko",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "install": "^0.11.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-aqua": "^1.5.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-console": 0
+    }
+  }
+}
+
