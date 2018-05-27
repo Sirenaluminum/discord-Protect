@@ -11,7 +11,7 @@ exports.run = async(bot, member) => {
 	// Do nothing if the channel wasn't found on this server
 	if (!channel) return;
 	// Send the message, mentioning the member
-channel.send(`Здрастуйте, **${member}** вы Попали на Сервер остащёный Защитой **Neko(protector)** начается проверка ваших Данных`, {embed: {
+channel.send(`Здравствуйте, **${member}** вы Попали на Сервер оснащённый Защитой **Neko(protector)** начается проверка ваших Данных`, {embed: {
 color: 16713430,
 author: {
 name: member.guild.name,
